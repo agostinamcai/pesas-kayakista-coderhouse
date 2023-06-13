@@ -1,0 +1,26 @@
+$font-family_1: 'Montserrat Alternates', sans-serif;
+
+.navbar {
+    .container-fluid {
+        width: 100%;
+    }
+
+    display: flex;
+    flex-wrap: wrap;
+
+    .agosNav {
+        display: flex;
+        justify-content: end;
+        margin-right: 1rem;
+    }
+}
+
+.navbar-brand {
+    font-family: $font-family_1;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.collapse {
+    flex-direction: column;
+}

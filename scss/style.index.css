@@ -1,0 +1,26 @@
+.containerFoto {
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: url(../assets/fotos_pwrgym/DSC03931.jpg);
+  background-color: transparent;
+  opacity: 0.85;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ppalFotoTexto {
+  display: flex;
+  align-items: center;
+  padding-right: 250px;
+  padding-left: 250px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  text-shadow: 2px 2px 6px rgb(0, 0, 0);
+  font-size: large;
+  background-color: rgba(243, 235, 235, 0.704);
+}/*# sourceMappingURL=style.index.css.map */

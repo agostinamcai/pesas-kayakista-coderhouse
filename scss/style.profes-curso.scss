@@ -1,0 +1,36 @@
+.profes {
+    display: flex;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    justify-content: center;
+}
+
+.descripcionProfe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-top: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+
+    .categOly {
+        justify-content: center;
+        align-self: center;
+        border: 0px;
+    }
+}
+
+.containerProfe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.descripcionCurso {
+    @extend .descripcionProfe
+}
+
+.curso1 {
+    padding: 20px;
+}

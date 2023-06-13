@@ -1,0 +1,38 @@
+.btn {
+    color: rgba(0, 0, 0, 1);
+    border-color: black;
+}
+
+.formUl{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    li{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        margin-bottom: 5px;
+    }
+}
+
+label {
+    margin-bottom: 5px;
+  }
+
+  .btn-form{
+    width: 100px;
+    align-self: center;
+    margin-top: 10px;
+  }
+
+
+  input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    label, input, textarea {
+      width: 100%;
+    }
+  }

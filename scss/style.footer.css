@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+  padding-top: 1.5rem !important;
+}
+
+.fab .fa-facebook-f {
+  font-size: 1000px;
+}
+
+.copyright {
+  display: flex;
+  width: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+  font-size: small;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.footer.css.map */

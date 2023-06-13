@@ -1,0 +1,176 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fab .fa-facebook-f {
+  font-size: 1000px;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar .container-fluid {
+  width: 100%;
+}
+.navbar .agosNav {
+  display: flex;
+  justify-content: end;
+  margin-right: 1rem;
+}
+
+.navbar-brand {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.collapse {
+  flex-direction: column;
+}
+
+.containerFoto {
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: url(../assets/fotos_pwrgym/DSC03931.jpg);
+  background-color: transparent;
+  opacity: 0.85;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ppalFotoTexto {
+  display: flex;
+  align-items: center;
+  padding-right: 250px;
+  padding-left: 250px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  text-shadow: 2px 2px 6px rgb(0, 0, 0);
+  font-size: large;
+  background-color: rgba(243, 235, 235, 0.704);
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+  padding-top: 1.5rem !important;
+}
+
+.copyright {
+  display: flex;
+  width: auto;
+  height: fit-content;
+  padding: 20px;
+  font-size: small;
+}
+
+.profes {
+  display: flex;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  justify-content: center;
+}
+
+.descripcionProfe, .descripcionCurso {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-top: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+}
+.descripcionProfe .categOly, .descripcionCurso .categOly {
+  justify-content: center;
+  align-self: center;
+  border: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container .fotos1 {
+  justify-content: space-around;
+}
+
+.containerProfe {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.curso1 {
+  padding: 20px;
+}
+
+.btn {
+  color: rgb(0, 0, 0);
+  border-color: black;
+}
+
+.formUl {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.formUl li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.btn-form {
+  width: 100px;
+  align-self: center;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  label, input, textarea {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
